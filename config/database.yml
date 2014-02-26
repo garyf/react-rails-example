@@ -17,10 +17,8 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: react_rails_example_development
+  database: react_rails_example_dvlp
   pool: 5
-  username: react_rails_example
-  password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -48,13 +46,11 @@ test:
   encoding: unicode
   database: react_rails_example_test
   pool: 5
-  username: react_rails_example
-  password:
 
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: react_rails_example_production
-  pool: 5
-  username: react_rails_example
-  password:
+# production:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: react_rails_example_production
+#   pool: 5
+#   username: react_rails_example
+#   password:
